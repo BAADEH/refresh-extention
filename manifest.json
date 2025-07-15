@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Smart Auto Reloader",
+  "version": "1.0",
+  "description": "Reload page every 2 seconds and open in new tab, with ON/OFF toggle",
+  "permissions": ["tabs", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Auto Reloader"
+  }
+}
